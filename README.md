@@ -1,4 +1,5 @@
 # Call Schedule
+[![Build Status](https://travis-ci.org/lilleswing/call_schedule.svg?branch=master)](https://travis-ci.org/lilleswing/call_schedule)
 
 Ipython Notebook for generating Call Schedules
 
