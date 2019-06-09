@@ -23,6 +23,7 @@ else
     echo "Using Existing Conda"
 fi
 
+conda config --add channels conda-forge
 if [[ $NO_ENV -eq 0 ]]; then
     conda create -y --name $ENV_NAME delegator
     source activate $ENV_NAME
