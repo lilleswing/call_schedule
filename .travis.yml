@@ -1,0 +1,10 @@
+language: python
+python:
+- '3.6'
+dist: trusty
+install:
+- bash devtools/install.sh
+- export PATH="$HOME/anaconda/bin:$PATH"
+script:
+- source activate call_schedule
+- bash devtools/tests/test.sh

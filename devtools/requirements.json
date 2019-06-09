@@ -1,0 +1,15 @@
+{
+    "channels": [
+        "anaconda",
+        "conda-forge"
+    ],
+    "packages": [
+        "pandas>=0.23.4",
+        "jupyter",
+        "numpy"
+    ],
+    "cpu_packages": [
+    ],
+    "gpu_packages": [
+    ]
+}
