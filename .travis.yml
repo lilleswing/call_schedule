@@ -4,9 +4,10 @@ python:
 dist: trusty
 install:
 - bash devtools/install.sh
-- export PATH="$HOME/anaconda/bin:$PATH"
+- export PATH="`pwd`/anaconda/bin:$PATH"
 - source activate call_schedule
 script:
+- ls
 - echo $PATH
 - which jupyter
 - bash devtools/tests/test.sh
